@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "CommonJS",
+    "baseUrl": ".",
+    "paths": {
+      "@repo/types/*": ["packages/types/*"],
+      "@repo/utils/*": ["packages/utils/*"]
+    },
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true
+  }
+}
